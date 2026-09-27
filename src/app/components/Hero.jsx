@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="w-full h-auto flex justify-center relative ">
-      <div className="absolute top-0 left-0 w-full flex ml-[50%] translate-x-[-50%] h-[110%] z-0 ">
+    <div className="w-full h-screen flex justify-center relative ">
+      <div className="absolute top-0 left-0 w-full flex ml-[50%] translate-x-[-50%] h-screen z-0 ">
         <Image
           fill
           unoptimized
@@ -12,13 +12,13 @@ export default function Hero() {
           style={{ objectFit: "cover", objectPosition: "70%" }}
         />
       </div>
-      <div className="w-full h-full bg-linear-to-r from-black to-transparent  absolute top-0 left-0 z-5"></div>
+      <div className="w-full h-screen bg-linear-to-r from-black to-transparent  absolute top-0 left-0 z-5"></div>
       <div className="xl:w-[70%] w-full h-screen relative z-100 flex flex-col">
-        <div className="lg:w-1/2 w-full h-full flex flex-col justify-center gap-10 px-5  ">
+        <div className="lg:w-1/2 w-full h-screen flex flex-col justify-center gap-10 px-5  ">
           <h2 className="uppercase -mb-8 mt-5 text-[#FCBD00]">
             électricité générale et industrielle à Besançon
           </h2>
-          <h3 className="text-3xl md:text-5xl font-bold">
+          <h3 className="text-2xl md:text-5xl font-bold">
             Des installations électriques sûres et durables
           </h3>
           <p>

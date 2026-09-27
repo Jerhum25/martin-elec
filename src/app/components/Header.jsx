@@ -12,7 +12,7 @@ export default function Header() {
             src="/images/logo-elec.png"
             className="object-contain"
           />
-          <h1 className=" flex flex-col font-bold text-xl">MARTIN Electricité <span className="font-normal text-sm">Votre électricien à Besançon</span></h1>
+          <h1 className=" flex flex-col font-bold text-sm md:text-xl">MARTIN Electricité <span className="font-normal text-sm">Votre électricien à Besançon</span></h1>
         </div>
         <div className="  lg:flex items-center hidden absolute top-[50%] left-[50%] translate-[-50%]">
           <nav>
@@ -25,8 +25,9 @@ export default function Header() {
             </ul>
           </nav>
         </div>
-        <div className="flex items-center">
-          <button className="bg-[#FCBD00] rounded-full px-5 py-3 flex items-center gap-2 text-black">
+<div className="flex items-center">
+          <button className="bg-[#FCBD00] rounded-full md:px-5 md:py-3 px-2 py-1 flex items-center gap-2 text-black text-sm sm:text-md
+          ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="1em"
@@ -40,8 +41,7 @@ export default function Header() {
             </svg>
             <a href="tel:0622334455" className="text-nowrap">06 22 33 44 55</a>
           </button>
-        </div>
-      </div>
+        </div>      </div>
     </div>
   );
 }
