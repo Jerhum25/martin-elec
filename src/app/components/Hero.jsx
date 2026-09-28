@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="w-full h-screen flex justify-center relative ">
-      <div className="absolute top-0 left-0 w-full flex ml-[50%] translate-x-[-50%] h-screen z-0 ">
+    <div className="w-full sm:h-[calc(100vh-66px)] h-[calc(100vh-76px)] flex justify-center relative ">
+      <div className="absolute top-0 left-0 w-full flex  ml-[50%] translate-x-[-50%] h-[calc(100vh-66px)] z-0 ">
         <Image
           fill
           unoptimized
@@ -12,9 +12,10 @@ export default function Hero() {
           style={{ objectFit: "cover", objectPosition: "70%" }}
         />
       </div>
-      <div className="w-full h-screen bg-linear-to-r from-black to-transparent  absolute top-0 left-0 z-5"></div>
-      <div className="xl:w-[70%] w-full h-screen relative z-100 flex flex-col">
-        <div className="lg:w-1/2 w-full h-screen flex flex-col justify-center gap-10 px-5  ">
+      <div className="w-full h-full bg-linear-to-r from-black to-transparent  absolute top-0 left-0 z-5"></div>
+
+      <div className="xl:w-[70%] w-full h-full relative z-100 flex flex-col">
+        <div className="lg:w-1/2 w-full h-full flex flex-col justify-center gap-10 px-5  ">
           <h2 className="uppercase -mb-8 mt-5 text-[#FCBD00]">
             électricité générale et industrielle à Besançon
           </h2>
@@ -45,13 +46,16 @@ export default function Hero() {
             </button>
           </div>
         </div>
-        <div className="w-full mb-25 pl-5 ">
-          <ul className="flex justify-between sm:flex-row flex-col sm:gap-10 gap-3">
+
+
+
+        <div className="w-full flex-1 pl-5 mb-[2%] ">
+          <ul className="flex justify-between sm:flex-row flex-col sm:gap-10 gap-2">
             <li className="flex gap-1 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="3em"
-                height="3em"
+                width="2em"
+                height="2em"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -69,8 +73,8 @@ export default function Hero() {
             <li className="flex gap-1 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="3em"
-                height="3em"
+                width="2em"
+                height="2em"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -92,8 +96,8 @@ export default function Hero() {
             <li className="flex gap-1 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="3em"
-                height="3em"
+                width="2em"
+                height="2em"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -115,8 +119,8 @@ export default function Hero() {
             <li className="flex gap-1 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="3em"
-                height="3em"
+                width="2em"
+                height="2em"
                 viewBox="0 0 24 24"
               >
                 <g fill="none" stroke="#FCBD00" strokeWidth="1.5">
