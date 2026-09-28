@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="w-full sm:h-[calc(100vh-66px)] h-[calc(100vh-76px)] flex justify-center relative ">
-      <div className="absolute top-0 left-0 w-full flex  ml-[50%] translate-x-[-50%] h-[calc(100vh-66px)] z-0 ">
+    <div className="w-full  h-[calc(100svh-66px)] flex justify-center relative ">
+      <div className="absolute top-0 left-0 w-full flex  ml-[50%] translate-x-[-50%] h-[calc(100svh-66px)]  z-0 ">
         <Image
           fill
           unoptimized
