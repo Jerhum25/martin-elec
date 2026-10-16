@@ -12,7 +12,7 @@ export default function Prestations() {
           </h3>
           <p>
             De l'installation à la rénovation en passant par le dépannage, je
-            vous propose des solutions adaptées à chaque solution, particuliers
+            vous propose des solutions adaptées à chaque besoin, particuliers
             comme professionnels.
           </p>
         </div>

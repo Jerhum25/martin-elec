@@ -19,7 +19,7 @@ export default function Header() {
             <ul className="flex gap-3 capitalize text-lg font-semibold">
               <li>accueil</li>
               <li><a href="#prestations">prestations</a></li>
-              <li><a href="#apropos">à propos</a></li>
+              <li><a href="#apropos">À propos</a></li>
               <li><a href="#realisations">réalisations</a></li>
               <li><a href="#contact">contact</a></li>
             </ul>

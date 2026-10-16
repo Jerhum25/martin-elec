@@ -23,7 +23,7 @@ export default function Hero() {
             Des installations électriques sûres et durables
           </h3>
           <p>
-            Artisant électricien à Besançon, je vous accompagne dans tous vos
+            Artisan électricien à Besançon, je vous accompagne dans tous vos
             projets : neuf, rénovation et dépannage. Des solutions fiables,
             adaptées à vos besoins et conformes aux normes en vigueur.
           </p>
@@ -131,7 +131,7 @@ export default function Hero() {
               <h3 className="text-sm font-bold flex flex-col">
                 Conseils personnalisés{" "}
                 <span className="text-xs text-white opacity-60 font-normal">
-                  Un accompagnement sur mesure pou chaque projet
+                  Un accompagnement sur mesure pour chaque projet
                 </span>
               </h3>{" "}
             </li>

@@ -17,7 +17,7 @@ export default function APropos() {
 
         <div className="md:w-[40%] w-full px-5 py-10 flex flex-col gap-3 relative">
           <h2 className="uppercase flex gap-2 items-center">
-            <div className="h-1 w-10 bg-[#fcbd00]"></div> à propos de nous
+            <div className="h-1 w-10 bg-[#fcbd00]"></div> À propos de nous
           </h2>
           <h3 className="text-3xl font-bold">
             Un artisan de confiance à votre service
